@@ -1,0 +1,37 @@
+// ***********************************************************************************************
+// *                                                                                             *
+// *                                 Fco Galan Software Ltd.                                     *
+// *                                                                                             *
+// *                                         Http_Hello                                          *
+// *                                                                                             *
+// *                                                                                             *
+// *                                 Copyright (c) 1980-2024                                     *
+// *                                                                                             *
+// ***********************************************************************************************
+// 
+// ***********************************************************************************************
+// * Copyright (c) 1980-2024 FGalan Software and its licensors.                                  *
+// * All rights reserved.                                                                        *
+// * Without the owner's prior written consent,                                                  *
+// * no decompiling or reverse-engineering shall be allowed.                                     *
+// ***********************************************************************************************
+//
+// ***********************************************************************************************
+// Aplicacion         : Servidor HYYP
+// Modulo             : Http_Hello
+//                      Ejemplo de un servidor HTTP simple
+// Lenguaje           : Javascript
+// Compilador         : Node.js v20.11.1
+// Instalador         : Npm 10.4.0
+// Sis. Op.           : Windows 10 (x64)
+// Historia de cambios:
+// ***********************************************************************************************
+// Version  Fecha            Programador  Descripcion del cambio
+// -------  ---------------  -----------  --------------------------------------------------------
+// 1.0.1.0  2024/08/14       Fco Galan    Version inicial
+//                                        Este programa habilita un servidor HTTP
+//                                        Responde la ruta /hello en el puerto 3000
+//                                        con el mensje {200,"Hello world"}
+//                                        Para cualquier otra ruta ruta responde {400,}"not found"}
+//                                        Documentacion
+// ***********************************************************************************************
